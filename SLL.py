@@ -25,7 +25,7 @@ class LinkedList:
             # if temp.data>0:
             # count += 1    
                 # sum+=temp.data    
-            temp = (temp.next).next
+            temp = temp.next.next
         if temp:
             print(temp.data)
             
